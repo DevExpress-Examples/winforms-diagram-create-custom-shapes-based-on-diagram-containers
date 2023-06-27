@@ -1,4 +1,4 @@
-# How to create custom shapes based on DiagramContainers
+# WinForms - How to create custom shapes based on DiagramContainers
 
 This example demonstrates how to create custom shapes that are consist of DiagramContainers with several inner shapes. You can use this technique when you need to create custom shapes whose geometry can be build using several predefined shapes combined together.
 
