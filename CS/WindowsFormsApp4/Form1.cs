@@ -1,17 +1,9 @@
 ﻿using DevExpress.Diagram.Core;
 using DevExpress.XtraDiagram;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp4
-{
+namespace WindowsFormsApp4 {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
@@ -24,7 +16,9 @@ namespace WindowsFormsApp4
             var itemTool = new FactoryItemTool("CustomShape1",
                 () => "Custom Shape 1",
                 diagram => CreateContainerShape1(),
-                new System.Windows.Size(200, 200), false);
+                new System.Windows.Size(200, 200), 
+                false
+            );
 
             stencil.RegisterTool(itemTool);
             DiagramToolboxRegistrator.RegisterStencil(stencil);
@@ -53,8 +47,7 @@ namespace WindowsFormsApp4
             };
 
 
-            var innerShape2 = new DiagramShape()
-            {
+            var innerShape2 = new DiagramShape() {
                 CanSelect = false,
                 CanChangeParent = false,
                 CanEdit = false,
