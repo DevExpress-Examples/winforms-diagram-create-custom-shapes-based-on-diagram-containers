@@ -8,7 +8,7 @@
 
 This example demonstrates how to create custom shapes (that are [DiagramContainers](https://docs.devexpress.com/WindowsForms/DevExpress.XtraDiagram.DiagramContainer)) with multiple inner shapes. You can use this technique to create custom shapes if their geometry should consist of combined predefined shapes.
 
-![image](https://github.com/DevExpress-Examples/win-shapes-based-on-diagramcontainers/assets/65009440/2d338409-ed1a-4307-b6ae-a44b7164bfd7)
+![image](https://github.com/DevExpress-Examples/winforms-diagram-create-custom-shapes-based-on-diagram-containers/assets/65009440/58c4b65d-1a2e-4af8-ba8a-26dc9ff736ee)
 
 ## Implementation Details
 
