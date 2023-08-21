@@ -1,7 +1,5 @@
 Imports DevExpress.Diagram.Core
 Imports DevExpress.XtraDiagram
-Imports System
-Imports System.ComponentModel
 Imports System.Drawing
 Imports System.Windows.Forms
 
@@ -17,7 +15,7 @@ Namespace WindowsFormsApp4
 
         Private Sub RegisterStencil()
             Dim stencil = New DiagramStencil("CustomStencil", "Custom Shapes")
-            Dim itemTool = New FactoryItemTool("CustomShape1", Function() "Custom Shape 1", Function(diagram) CreateContainerShape1(), New Windows.Size(200, 200), False)
+            Dim itemTool = New FactoryItemTool("CustomShape1", Function() "Custom Shape 1", Function(diagram) CreateContainerShape1(), New System.Windows.Size(200, 200), False)
             stencil.RegisterTool(itemTool)
             DiagramToolboxRegistrator.RegisterStencil(stencil)
             diagramControl1.OptionsBehavior.SelectedStencils = New StencilCollection() From {"CustomStencil"}
