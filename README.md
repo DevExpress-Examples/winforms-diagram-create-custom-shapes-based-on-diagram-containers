@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WinForms Diagram - Create Custom Shapes Based on Diagram Containers
+# WinForms DiagramControl - Create Custom Shapes Based on Diagram Containers
 
 This example demonstrates how to create custom shapes (that are [DiagramContainers](https://docs.devexpress.com/WindowsForms/DevExpress.XtraDiagram.DiagramContainer)) with multiple inner shapes. You can use this technique to create custom shapes if their geometry should consist of combined predefined shapes.
 
