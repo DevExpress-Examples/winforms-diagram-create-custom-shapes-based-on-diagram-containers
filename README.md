@@ -93,3 +93,4 @@ Follow the steps below to accomplish this task:
 
 - [WinForms DiagramControl - Register FactoryItemTools for Regular and Custom Shapes](https://github.com/DevExpress-Examples/winforms-diagram-register-factoryitemtools-for-shapes)
 - [WinForms DiagramControl - Create Rotatable Containers with Shapes](https://github.com/DevExpress-Examples/winforms-diagram-create-rotatable-containers-with-shapes)
+- [WinForms DiagramControl - Proportionally Resize Shapes Within the Parent Container](https://github.com/DevExpress-Examples/winforms-diagram-proportionally-resize-shapes-within-container)
