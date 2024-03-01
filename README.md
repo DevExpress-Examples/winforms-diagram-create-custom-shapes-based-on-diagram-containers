@@ -6,13 +6,13 @@
 
 # WinForms DiagramControl - Create Custom Shapes Based on Diagram Containers
 
-This example demonstrates how to create custom shapes (that are [DiagramContainers](https://docs.devexpress.com/WindowsForms/DevExpress.XtraDiagram.DiagramContainer)) with multiple inner shapes. You can use this technique to create custom shapes if their geometry should consist of combined predefined shapes.
+The following example creates custom DevExpress Diagram shapes ([DiagramContainers](https://docs.devexpress.com/WindowsForms/DevExpress.XtraDiagram.DiagramContainer)) with multiple inner shapes. You can use this technique to create custom shapes if/when associated geometries must consist of combined predefined shapes.
 
 ![image](https://github.com/DevExpress-Examples/winforms-diagram-create-custom-shapes-based-on-diagram-containers/assets/65009440/58c4b65d-1a2e-4af8-ba8a-26dc9ff736ee)
 
 ## Implementation Details
 
-Follow the steps below to accomplish this task:
+To begin, you must:
 
 1. Create a container and add static non-selectable shapes:
 
@@ -58,7 +58,7 @@ Follow the steps below to accomplish this task:
    }
    ```
 
-2. Register a [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) that creates an instance of this container:
+2. Register a [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) to create an instance of this container:
 
    ```cs
    void RegisterStencil() {
@@ -87,6 +87,7 @@ Follow the steps below to accomplish this task:
 - [DiagramContainer](https://docs.devexpress.com/WindowsForms/DevExpress.XtraDiagram.DiagramContainer)
 - [Containers and Lists](https://docs.devexpress.com/WindowsForms/117672/controls-and-libraries/diagrams/diagram-items/containers)
 - [Shapes](https://docs.devexpress.com/WindowsForms/116882/controls-and-libraries/diagrams/diagram-items/shapes)
+- [Create Custom Diagram Items](https://docs.devexpress.com/WindowsForms/404797/controls-and-libraries/diagrams/diagram-items/create-custom-diagram-items)
 - [Manage Item Interaction](https://docs.devexpress.com/WindowsForms/120271/controls-and-libraries/diagrams/diagram-items/managing-items-interaction)
 
 ## More Examples
