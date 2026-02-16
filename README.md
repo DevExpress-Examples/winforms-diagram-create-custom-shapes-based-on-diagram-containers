@@ -97,7 +97,7 @@ To begin, you must:
 - [WinForms DiagramControl - Create Rotatable Containers with Shapes](https://github.com/DevExpress-Examples/winforms-diagram-create-rotatable-containers-with-shapes)
 - [WinForms DiagramControl - Proportionally Resize Shapes Within the Parent Container](https://github.com/DevExpress-Examples/winforms-diagram-proportionally-resize-shapes-within-container)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-diagram-create-custom-shapes-based-on-diagram-containers&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-diagram-create-custom-shapes-based-on-diagram-containers&~~~was_helpful=no)
 
